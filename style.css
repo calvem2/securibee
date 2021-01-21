@@ -1,24 +1,64 @@
 body {
   font-family: sans-serif;
   margin: auto;
-  max-width: 1280px;
 }
 
+/* Style the navigation bar*/
 .navbar {
-  background-color: #313236;
+  background-color: rgb(232, 177, 45);
   border-radius: 2px;
-  max-width: 800px;
+  overflow: hidden;
 }
 
+/* Remove link underlining */
 .navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar-right a {
+  color: rgb(255, 237, 200);
+  display: inline-block;
+  padding: 20px;
+  font-size: 110%;
+}
+
+.navbar-right a:hover {
   color: #ffffff;
 }
 
+
+/* Float the nav bar elements to the right*/
+.navbar-right {
+  float: right;
+  padding-right: 5%;
+}
+
+h1 {
+  padding-top: 2%;
+  padding-left: 10%;
+  font-size: 300%;
+  color: white;
+}
+
+h2 {
+  padding: 5%;
+  text-align: center;
+  color: #313236;
+}
+
+h3 {
+  color: #313236;
+}
+
+/* Style the about us section*/
+.about-us {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-around;
+}
+
+/* Style the explore topics content */
+.explore-topics {
+  padding-left: 10%;
+}
