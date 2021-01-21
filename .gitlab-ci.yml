@@ -1,6 +1,9 @@
 image: alpine:latest
 
 pages:
+  tags:
+    - pages
+    - securibee
   stage: deploy
   script:
   - echo 'Nothing to do...'
