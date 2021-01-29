@@ -62,3 +62,7 @@ h3 {
 .explore-topics {
   padding-left: 10%;
 }
+
+.topic-link {
+  display: block;
+}
