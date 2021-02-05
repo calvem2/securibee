@@ -5,7 +5,7 @@ body {
 
 /* Style the navigation bar*/
 .navbar {
-  background-color: rgb(232, 177, 45);
+  background-color: rgba(232, 177, 45, 1);
   border-radius: 2px;
   overflow: hidden;
 }
@@ -33,11 +33,25 @@ body {
   padding-right: 5%;
 }
 
+.navbar-left {
+
+}
+
+/* Style logo*/
+.logo {
+  display: block;
+  max-width: 60px;
+  height: auto;
+  width: auto;
+  float: left;
+  padding-left: 3%;
+}
+
 h1 {
-  padding-top: 2%;
-  padding-left: 10%;
+  padding: 0 0 0 8%;
   font-size: 300%;
   color: white;
+  margin-bottom: 0px;
 }
 
 h2 {
