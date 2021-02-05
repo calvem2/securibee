@@ -25,6 +25,11 @@ body {
   background-color: rgba(232, 177, 45, 1);
   border-radius: 2px;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 /* Remove link underlining */
@@ -46,12 +51,14 @@ body {
 
 /* Float the nav bar elements to the right*/
 .navbar-right {
-  float: right;
-  padding-right: 5%;
+  /*float: right;*/
+  padding-right: 2%;
 }
 
 .navbar-left {
-
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
 }
 
 /* Style logo*/
@@ -61,7 +68,6 @@ body {
   max-width: 60px;
   height: auto;
   width: auto;
-  float: left;
   padding-left: 3%;
 }
 
@@ -72,7 +78,9 @@ body {
   padding: 0 0 0 8%;
   font-size: 300%;
   color: white;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+  /*float: right;*/
 }
 
 h2 {
