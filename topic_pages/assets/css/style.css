@@ -1290,7 +1290,7 @@ a {
     width: 50px;
     content: "";
     /* NOTE: color for heading top borders */
-    background: rgb(232, 177, 45); }
+    background: #FFC700; }
   .heading-border-top.light:before {
     background: rgba(255, 255, 255, 0.7) !important; }
 
@@ -1304,7 +1304,7 @@ a {
   background: rgba(255, 255, 255, 0.7) !important; }
 
 .pb_section {
-  padding: 9em 0;
+  padding: 3em 0;
   position: relative;
   display: block; }
   @media (max-width: 991px) {
@@ -1314,7 +1314,7 @@ a {
   .pb_section.pb_bg-half:before {
     top: 50%;
     content: "";
-    background: #f8f9fa;
+    /*background: #f8f9fa;*/
     bottom: 0%;
     width: 100%;
     left: 0;
@@ -1382,7 +1382,7 @@ a {
       color: #868e96; }
 
 .pb_footer {
-  padding: 5em 0; }
+  padding: 2em 0; }
   .pb_footer .list-unstyled li {
     margin-bottom: 10px;
     line-height: 1.5; }
@@ -1530,7 +1530,7 @@ a {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  color: #000; }
+  color: #FFC700; }
   @media (max-width: 767px) {
     .slick-arrow {
       display: none !important; } }
@@ -1596,9 +1596,9 @@ a {
       .slick-dots li button:hover, .slick-dots li button:focus {
         outline: none; }
         .slick-dots li button:hover:before, .slick-dots li button:focus:before {
-          background: rgba(0, 0, 0, 0.7); }
+          background: #FED521; }
     .slick-dots li.slick-active button:before {
-      background: rgba(0, 0, 0, 0.7); }
+      background: #FED521; }
 
 .pb_media_v1 > .icon,
 .pb_media_v2 > .icon {

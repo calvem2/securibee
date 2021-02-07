@@ -154,13 +154,16 @@ sub {
 sup {
   top: -.5em; }
 
+/* links */
 a {
-  color: #1d82ff;
+  color: #5ea0ad;
   text-decoration: none;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects;
+  font-weight: 400;
+}
   a:hover {
-    color: #005dd0;
+    color: #3C2109;
     text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
@@ -4688,8 +4691,12 @@ a.bg-navy:focus, a.bg-navy:hover {
 .bg-transparent {
   background-color: transparent !important; }
 
+/* MENU ICON BORDERS */
 .border {
-  border: 1px solid #e9ecef !important; }
+  border: 2px solid #3C2109 !important; }
+
+.border:hover {
+  border: 2px solid #FFC700 !important; }
 
 .border-0 {
   border: 0 !important; }
@@ -5888,8 +5895,10 @@ a.bg-navy:focus, a.bg-navy:hover {
 .mr-5 {
   margin-right: 3rem !important; }
 
+/* page title margin */
 .mb-5 {
-  margin-bottom: 3rem !important; }
+  /*margin-bottom: 3rem !important;*/
+}
 
 .ml-5 {
   margin-left: 3rem !important; }
@@ -6983,8 +6992,12 @@ a.bg-navy:focus, a.bg-navy:hover {
 a.text-primary:focus, a.text-primary:hover {
   color: #0068e9 !important; }
 
+/* MENU ICONS */
 .text-secondary {
-  color: #868e96 !important; }
+  color: #3C2109 !important; }
+
+.border:hover .text-secondary {
+  color: #FFC700 !important; }
 
 a.text-secondary:focus, a.text-secondary:hover {
   color: #6c757d !important; }
