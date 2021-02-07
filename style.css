@@ -122,17 +122,22 @@ h3 {
   margin: 15px;
   text-align: center;
   font-weight: bold;
-  background-color: #FFF1CA;
+  background-color: #FED521;
+  /*background-color: #FFF1CA;*/
   color: #3C2109;
   font-size: 24pt;
   text-decoration: none;
   line-height: 50px;
   align-items: center;
   padding: 10px;
+  transition: all .2s ease-in-out;
 }
 
 .topic-link:hover {
-  background-color: #FED521;
+  /*background-color: #FFF1CA;*/
+  /*border: solid 4px #3C2109;*/
+  background-color: #FFC700;
+  transform: scale(1.05);
 }
 
 /*.topic-link  a {*/
