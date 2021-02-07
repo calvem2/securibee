@@ -18,11 +18,13 @@ body {
   /*font-family: $font-family-sans-serif;*/
   font-family: "Montserrat", Arial, sans-serif;
   margin: auto;
+  background-color: white;
 }
 
 /* Style the navigation bar*/
 .main-navbar {
-  background-color: rgba(232, 177, 45, 1);
+  /*background-color: rgba(232, 177, 45, 1);*/
+  background-color: #A9D2C9;
   border-radius: 2px;
   overflow: hidden;
   display: flex;
@@ -38,10 +40,11 @@ body {
 }
 
 .navbar-right a, .navbar-right a:visited {
-  color: rgb(255, 237, 200);
+  color: #3C2109;
   display: inline-block;
   padding: 20px;
   font-size: 110%;
+  font-weight: 500;
 }
 
 .navbar-right a:hover {
@@ -85,12 +88,12 @@ body {
 
 h2 {
   padding: 5%;
-  text-align: center;
-  color: #313236;
+  /*text-align: center;*/
+  color: #3C2109;
 }
 
 h3 {
-  color: #313236;
+  color: #3C2109;
 }
 
 /* Style the about us section*/
@@ -109,3 +112,12 @@ h3 {
 .topic-link {
   display: block;
 }
+
+ul {
+  text-align: left !important;
+}
+
+/*footer {*/
+/*  width: 100%;*/
+/*  margin: auto;*/
+/*}*/
