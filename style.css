@@ -121,7 +121,6 @@ h3 {
   border-radius: 10px;
   margin: 15px;
   text-align: center;
-  font-weight: bold;
   background-color: #FED521;
   /*background-color: #FFF1CA;*/
   color: #3C2109;
@@ -133,11 +132,20 @@ h3 {
   transition: all .2s ease-in-out;
 }
 
+.topic-link p {
+  font-weight: bold;
+}
+
 .topic-link:hover {
   /*background-color: #FFF1CA;*/
   /*border: solid 4px #3C2109;*/
   background-color: #FFC700;
   transform: scale(1.05);
+}
+
+/* icons on the explore topics page */
+.topic-link .material-icons {
+  font-size: 30pt;
 }
 
 /*.topic-link  a {*/
