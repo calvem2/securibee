@@ -161,3 +161,8 @@ ul {
 footer {
   vertical-align: middle;
 }
+
+/* icon on topic page menu */
+.pb_media_v2 .material-icons {
+  font-size: 28pt !important;
+}
