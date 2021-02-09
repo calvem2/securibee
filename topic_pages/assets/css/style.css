@@ -1638,7 +1638,8 @@ a {
 .pb_slide_v1 .link-block {
   display: block;
   position: relative;
-  color: #A5E9DB; }
+  color: #5ea0ad;
+  margin: 5px;}
   .pb_slide_v1 .link-block:before {
     position: absolute;
     content: "";
@@ -1651,12 +1652,22 @@ a {
     position: absolute;
     z-index: 10;
     bottom: 20px;
-    left: 20px; }
+    left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: rgba(255,255,255, 0.9);
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around}
     .pb_slide_v1 .link-block .slide-text h2 {
       font-size: 24px;
-      font-weight: 400;
-      color: #fff;
+      font-weight: 600 !important;
+      color: #5EA0AD;
       margin-bottom: 0; }
+    .pb_slide_v1 .link-block .slide-text p {
+      /*font-size: 24px;*/
+      font-weight: 500 }
     .pb_slide_v1 .link-block .slide-text *:last-child {
       margin-bottom: 0; }
 
