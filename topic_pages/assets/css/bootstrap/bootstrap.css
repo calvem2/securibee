@@ -421,8 +421,17 @@ mark,
 
 .img-fluid {
   width: 100%;
+  /*opacity: .7;*/
+  height: auto;
+  /*height: 325px;*/
+  /*overflow: hidden;*/
+}
+
+.img-fluid-1 {
+  width: 100%;
+  opacity: .5;
   /*height: auto;*/
-  height: 325px;
+  height: 375px;
   overflow: hidden;
 }
 
