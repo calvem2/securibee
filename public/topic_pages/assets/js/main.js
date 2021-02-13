@@ -8,7 +8,7 @@ $(document).ready(function($) {
 			if($('#pb_loader').length > 0) {
 				$('#pb_loader').removeClass('show');
 			}
-		}, 700);
+		}, 800);
 	};
 	loader();
 
@@ -88,7 +88,7 @@ $(document).ready(function($) {
 		  infinite: true,
 		  
 		  autoplay: true,
-	  	autoplaySpeed: 2000,
+	  	autoplaySpeed: 4000,
 
 		  arrows: true,
 		  nextArrow: '<span class="next"><i class="ion-ios-arrow-right"></i></span>',
