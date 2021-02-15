@@ -919,6 +919,9 @@ input, select, textarea {
       padding: 15px; } }
 
 #pb_loader {
+  text-align: center;
+  vertical-align: middle;
+  /*display: table-cell;*/
   position: fixed;
   width: 96px;
   height: 96px;
@@ -933,9 +936,9 @@ input, select, textarea {
   border-radius: 16px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .2s ease-out, visibility 0s linear .2s;
-  -o-transition: opacity .2s ease-out, visibility 0s linear .2s;
-  transition: opacity .2s ease-out, visibility 0s linear .2s;
+  -webkit-transition: opacity .1s ease-out, visibility 0s linear .1s;
+  -o-transition: opacity .1s ease-out, visibility 0s linear .1s;
+  transition: opacity .1s ease-out, visibility 0s linear .1s;
   z-index: 1000; }
 
 #pb_loader.fullscreen {
