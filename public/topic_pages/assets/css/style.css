@@ -1730,7 +1730,25 @@ a {
 .overflow-hidden {
   overflow: hidden; }
   
-.pb_section img {
+.profile {
+  padding: 3em 0;
+  position: relative;
+  display: block; }
+  @media (max-width: 991px) {
+    .pb_section {
+      /* NOTE: padding for sections */
+      padding: 4em 0; } }
+  .pb_section.pb_bg-half:before {
+    top: 50%;
+    content: "";
+    /*background: #f8f9fa;*/
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.profile img{
   text-align: center;
   width: 100%;
   height: auto;
