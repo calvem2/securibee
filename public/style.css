@@ -197,6 +197,16 @@ footer {
   animation-timing-function: ease;
 }
 
+/* defintions styling */
+def {
+  font-style: italic;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+
 def span {
   font-style: normal;
   visibility: hidden;
