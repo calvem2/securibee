@@ -196,3 +196,39 @@ footer {
   animation-name: bounce-2;
   animation-timing-function: ease;
 }
+
+def span {
+  font-style: normal;
+  visibility: hidden;
+  font-size: 85%;
+  width: 250px;
+  border: 2px solid #FFC700;
+  background-color: white;
+  /*color: #fff;*/
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -130px;
+  opacity: 0;
+  transition: opacity 750ms;
+}
+
+def span::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #FFC700 transparent transparent transparent;
+}
+
+def:hover span {
+  visibility: visible;
+  opacity: 1;
+}
