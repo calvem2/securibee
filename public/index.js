@@ -12,7 +12,6 @@
                     defTags[i].children[0].innerHTML = `<b>${word}: </b> ${definition}`;
                     console.log(defTags[i].className.split("-")[1]);
                 }
-                // document.getElementById("demo").innerHTML = myObj.name;
             }
         };
         xmlhttp.open("GET", "dictionary.json", true);
