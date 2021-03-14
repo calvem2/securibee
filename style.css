@@ -27,7 +27,6 @@ b {
 
 /* Style the navigation bar*/
 .main-navbar {
-  /*background-color: rgba(232, 177, 45, 1);*/
   background-color: #A9D2C9;
   border-radius: 2px;
   overflow: hidden;
@@ -58,7 +57,6 @@ b {
 
 /* Float the nav bar elements to the right*/
 .navbar-right {
-  /*float: right;*/
   padding-right: 2%;
 }
 
@@ -87,7 +85,6 @@ b {
   color: white;
   margin-bottom: 0;
   margin-top: 0;
-  /*float: right;*/
 }
 
 h2 {
@@ -110,7 +107,6 @@ h3 {
 
 /* Style the explore topics content */
 .explore-topics {
-  /*padding-left: 10%;*/
   display: flex;
   width: 80%;
   flex-wrap: wrap;
@@ -126,7 +122,6 @@ h3 {
   margin: 15px;
   text-align: center;
   background-color: #FED521;
-  /*background-color: #FFF1CA;*/
   color: #3C2109;
   font-size: 24pt;
   text-decoration: none;
@@ -141,8 +136,6 @@ h3 {
 }
 
 .topic-link:hover {
-  /*background-color: #FFF1CA;*/
-  /*border: solid 4px #3C2109;*/
   background-color: #FFC700;
   transform: scale(1.05);
 }
@@ -214,7 +207,6 @@ def span {
   width: 250px;
   border: 2px solid #FFC700;
   background-color: white;
-  /*color: #fff;*/
   text-align: center;
   border-radius: 6px;
   padding: 10px;
@@ -241,4 +233,18 @@ def span::after {
 def:hover span {
   visibility: visible;
   opacity: 1;
+}
+
+#extension-steps-container {
+  margin: auto;
+  width: 90%;
+}
+
+#extension-steps-container img {
+  width: 250px;
+  height: 250px;
+}
+
+#extension-steps-container tr > * {
+  padding: 10px;
 }
