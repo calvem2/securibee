@@ -1,5 +1,6 @@
 {
   "adversary": "an individual or organization who tries to view or modify information that they are not authorized to access",
   "breach": "any unintentional or intentional incident that results in the release of confidential information to unauthorized parties",
-  "hacking": "attempts to identify security weaknesses in a system in order to gain unauthorized access to information"
+  "hacking": "attempts to identify security weaknesses in a system in order to gain unauthorized access to information",
+  "virus": "bad code a user may unkowingly download meant to change the way your computer works and can spread from one computer to another"
 }
