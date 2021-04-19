@@ -36,11 +36,11 @@
 
 <!-- NAVBAR -->
 <div class="main-navbar">
-    <div class="navbar-left">
-        <a href="../index.html"><img class="logo" src="../images/securi-bee.png" alt="securi-bee logo - a bee stylized with an 's' and a 'b' in the body and wings"/></a>
+    <div class="navbar-left" tabindex="0" aria-label="securibee">
+        <a href="../index.html"><img class="logo" src="../images/securi-bee.png" alt="securibee logo"/></a>
         <a href="../index.html"><h1 class="nav-title">securi&#8209;bee</h1></a>
     </div>
-    <div class="navbar-right">
+    <div class="navbar-right" tabindex="0" aria-label="Menu">
         <a href="../index.html">explore topics</a>
         <a href="../chrome-extension.html">chrome extension</a>
         <a href="../our-mission.html">our mission</a>
@@ -48,49 +48,48 @@
     </div>
 </div>
 
-
 <!--  JUMP TO SECTION HEADER TEMPLATE  -->
 <section class="pb_section bg-light" style="padding-top:2em;">
     <div class="row justify-content-md-center text-center mb-5">
         <div class="col-lg-7">
-            <h2 class="mt-0 font-weight-normal">email phishing & scams</h2>
+            <h2 class="mt-0 font-weight-normal" tabindex="0">email phishing & scams</h2>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md">
-                <div class="media pb_media_v2 d-block text-center mb-3">
-                    <a href="#section-overview" class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4" style="-webkit-transition: none;">
+                <div class="media pb_media_v2 d-block text-center mb-3" tabindex="0" aria-label="About">
+                    <a href="#section-overview" aria-label="About" class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4" style="-webkit-transition: none;">
                         <!-- about icon -->
-                        <i class="text-secondary material-icons">security</i>
+                        <i class="text-secondary material-icons" aria-hidden="true">security</i>
                     </a>
                     <div class="media-body">
-                        <h3 class="mt-0 pb_font-20">About</h3>
-                        <p>What is email phishing?</p>
+                        <h3 class="mt-0 pb_font-20" aria-hidden="true">about</h3>
+                        <p tabindex="0">What is email phishing?</p>
                     </div>
                 </div>
             </div>
             <div class="col-md">
-                <div class="media pb_media_v2 d-block text-center  mb-3">
-                    <a href="#section-risks" class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4" style="-webkit-transition: none;">
+                <div class="media pb_media_v2 d-block text-center  mb-3" tabindex="0" aria-label="Why you should care">
+                    <a href="#section-risks" aria-label="Why you should care" class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4" style="-webkit-transition: none;">
                         <!-- why you should care icon -->
-                        <i class="text-secondary material-icons">favorite_border</i>
+                        <i class="text-secondary material-icons" aria-hidden="true">favorite_border</i>
                     </a>
                     <div class="media-body">
-                        <h3 class="mt-0 pb_font-20">Why you should care</h3>
-                        <p>What's at risk?</p>
+                        <h3 class="mt-0 pb_font-20" aria-hidden="true">why you should care</h3>
+                        <p tabindex="0">What's at risk?</p>
                     </div>
                 </div>
             </div>
             <div class="col-md">
-                <div class="media pb_media_v2 d-block text-center  mb-3">
-                    <a href="#section-tools" class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4" style="-webkit-transition: none;">
+                <div class="media pb_media_v2 d-block text-center  mb-3" tabindex="0" aria-label="Tools and Tips">
+                    <a href="#section-tools" aria-label="Tools and Tips" class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4" style="-webkit-transition: none;">
                         <!-- tools and tips icon -->
-                        <i class="text-secondary material-icons">build</i>
+                        <i class="text-secondary material-icons" aria-hidden="true">build</i>
                     </a>
                     <div class="media-body">
-                        <h3 class="mt-0 pb_font-20">Tools & Tips</h3>
-                        <p>How to recognize email phishing attempts.</p>
+                        <h3 class="mt-0 pb_font-20" aria-hidden="true">tools & tips</h3>
+                        <p tabindex="0">How to recognize email phishing attempts.</p>
                     </div>
                 </div>
             </div>
@@ -99,46 +98,171 @@
 </section>
 <!-- END section -->
 
-<section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-overview">
+<!--  DROPDOWN SECTIONS TEMPLATE  -->
+<section class="pb_section" data-section="why-us" id="section-overview" aria-label="About - email phishing" tabindex="0">
     <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
             <div class="col-lg-7">
-                <h2 class="mt-0 heading-border-top font-weight-normal">About</h2>
-                <p>
-                    Email phishing is a type of scam where attackers pose as official organizations or someone that you
-                    know whether that be from work or one of your relatives to gain access to your personal information.
-                </p>
-                <p>
-                    Email phishing can catch users off guard, so it is best to always practice caution when
-                    viewing emails from any source.
-                </p>
-                <p>
-                    This type of attack is one of the most dangerous because users often fall for the social engineering
-                    the attacker uses in order for the user to take the bait.
-                </p>
+                <h2 class="mt-0 heading-border-top font-weight-normal" tabindex="0">about</h2>
+                <div tabindex="0">
+                    <p><def class="def-adversary"><span></span>Adversaries</def>  often try to exploit folx by sending official looking emails to trick users into giving
+                    them funds or personal information.</p>
+                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="images right">
+                    <img class="img-fluid" src="assets/images/multiple-mail.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-5 pl-md-5 pl-sm-0">
+                <div id="exampleAccordion" class="pb_accordion" data-children=".item">
+                    <div class="item" tabindex="0">
+                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1" class="pb_font-18">what do we mean by "email phishing"?</a>
+                        <div id="exampleAccordion1" class="collapse show" role="tabpanel">
+                            <p tabindex="0">Email phishing is a type of scam where
+                                adversaries pose as official
+                                organizations or someone you know (e.g. relatives, friends, or coworkers) to gain
+                                access to your sensitive personal information.</p>
+                        </div>
+                    </div>
+                    <div class="item" tabindex="0">
+                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion3" class="pb_font-18">who can the adversary pretend to be?</a>
+                        <div id="exampleAccordion3" class="collapse" role="tabpanel">
+                            <div tabindex="0">
+                                <p>Anyone that you would be likely to respond to if an urgent matter is posed:</p>
+                                <ul>
+                                    <li>Relative</li>
+                                    <li>Friend</li>
+                                    <li>Co-Worker</li>
+                                    <li>Boss</li>
+                                    <li>Company (e.g. Apple, Amazon)</li>
+                                    <li>Law enforcement (e.g. FBI)</li>
+                                    <li>School / University</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" tabindex="0">
+                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion4" class="pb_font-18">common themes for these emails</a>
+                        <div id="exampleAccordion4" class="collapse" role="tabpanel">
+                            <div tabindex="0">
+                                <p>Account deactivation scare:</p>
+                                <ul>
+                                    <li><def class="def-adversary"><span></span>Adversary</def> poses as a company whose
+                                        service you use (e.g. Apple) and say that
+                                    you have some number of hours to click a seemingly harmless link to verify this
+                                    email address or your account will be deactivated.</li>
+                                </ul>
+                                <p>Look-alike websites:</p>
+                                <ul>
+                                    <li>Adversary links to a fake website in
+                                        the phishing email that looks identical to a
+                                    real website. Visiting this website can secretly download a <def class="def-virus"><span></span>virus</def> to your computer
+                                    or steal other personal information about you.</li>
+                                </ul>
+                                <p>Legal trouble:</p>
+                                <ul>
+                                    <li>Adversary poses as a form of law
+                                        enforcement and warns the user if they do not click
+                                    the link provided in the email then they could be in serious legal trouble (e.g. arrested,
+                                    taken to court, etc).</li>
+                                </ul>
+                                <p>Free "prize":</p>
+                                <ul>
+                                    <li>Adversary tells the user they
+                                        won some sort of prize (e.g. gift card, money,
+                                        iPhone, etc). The link to claim the prize leads to a <def class="def-malicious"><span></span>malicious</def> website that steals
+                                        your name and address information where you want the "prize" shipped to.</li>
+                                    <li>**NOTE: If it's too good to be true then it's likely a scam.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" tabindex="0">
+                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion5" aria-expanded="false" aria-controls="exampleAccordion5" class="pb_font-18">why does attack work so well?</a>
+                        <div id="exampleAccordion5" class="collapse" role="tabpanel">
+                            <div tabindex="0">
+                                <p>Emotional manipulation lets the adversary bypass the user's rational thinking skills:</p>
+                                <p>Fear</p>
+                                <ul>
+                                    <li>Deactivation of accounts or worry of being in some kind of trouble leads the user to be
+                                        fearful about an urgent situation. This pushes the user to stop everything and respond to
+                                        the scam in an immediate manner leaving their critical thinking behind.</li>
+                                </ul>
+                                <p>Urgency</p>
+                                <ul>
+                                    <li>Actions that must be taken within a limited amount of time lead the user to make
+                                    irrational decisions such as clicking on links before thinking or replying to an
+                                    email with their personal information enclosed.</li>
+                                </ul>
+                                <p>Excitement</p>
+                                <ul>
+                                    <li>False promises of free gifts manipulate the user into thinking that there are only
+                                    positives and no downsides to claiming the offer provided in the email.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" tabindex="0">
+                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2" class="pb_font-18">example of an email phishing attempt</a>
+                        <div id="exampleAccordion2" class="collapse" role="tabpanel">
+                            <div tabindex="0">
+                                <p>
+                                    Say you have an Apple account and get an email from what appears to be Apple saying that your
+                                    Apple ID has been locked for security reasons.
+                                    <br><br>
+                                    The email also states that if you do not respond within 12 hours then your Apple ID will
+                                    be suspended and you will no longer have access to your account.
+                                    <br><br>
+                                    There is a big button in the middle of the page that says “Verify your Account”. If you were to
+                                    click it, it would lead you to a webpage that looks just like Apple’s official webpage where it
+                                    tells you to enter your email and password to verify the account.
+                                    <br><br>
+                                    Since this is a fake website instead of verifying your account it steals your Apple
+                                    login information and gains access to your account.
+                                    <br><br>
+                                    **NOTE: If you have other accounts with the same email and password then the attacker has access
+                                    to those as well. All they have to do is try that email and password combination on popular
+                                    websites to see if you use the same login information.
+                                    <br>
+                                    See information about password security
+                                    <a href="https://securitea.pages.cs.washington.edu/securi-bee-website/topic_pages/password-security.html" target="_blank">here</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
     </div>
 </section>
 <!-- END section -->
 
 <!-- IMAGES/TEXT SIDE BY SIDE TEMPLATE -->
-<section class="pb_section pb_section_v1" data-section="about" id="section-risks">
+<section class="pb_section pb_section_v1" data-section="about" id="section-risks" aria-label="Why you should care - email phishing" tabindex="0">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pr-md-5 pr-sm-0">
-                <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Why you should care</h2>
-                <p>
-                    Your information is at risk when becoming subject to a phishing attack.
-                </p>
-                <p>
-
-                </p>
+                <h2 class="mt-0 heading-border-top mb-3 font-weight-normal" tabindex="0">why you should care</h2>
+                <div tabindex="0">
+                    <p>This type of attack is one of the most dangerous because users often fall for the social engineering
+                        tactics the <def class="def-adversary"><span></span>adversary</def> uses.</p>
+                    <p>Your important information (e.g. account login and credit card information)
+                        is what the adversary is trying to gain access to.</p>
+                    <p>If the adversary gains access to sensitive
+                        information like this then they can steal your money, make unauthorized purchases, or even cause
+                        identity theft.</p>
+                    <p>If you work for a well-known or larger company then you may be at a higher risk for phishing attacks. This is
+                        because adversaries often target smaller networks of people within a larger company in order to
+                        steal information that the general public doesn’t have access to.</p>
+                </div>
             </div>
             <div class="col-lg-5">
                 <div class="images">
-                    <img class="img1 img-fluid" src="assets/images/email.svg" alt="free Template by uicookies.com">
+                    <img class="img1 img-fluid" src="assets/images/email.svg" alt="">
                 </div>
             </div>
 
@@ -148,106 +272,189 @@
 <!-- END section -->
 
 <!--  SMALL NESTED MULTI PAGE NAV TEMPLATE  -->
-<section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-tools">
+<section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-tools" aria-label="Tools and tips - email phishing" tabindex="0">
     <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
             <div class="col-lg-7">
-                <h2 class="mt-0 heading-border-top font-weight-normal">Tools & Tips</h2>
-                <p>Check out these tips to avoid falling for email phishing traps.</p>
+                <h2 class="mt-0 heading-border-top font-weight-normal" tabindex="0">tools & tips</h2>
+                <p tabindex="0">Check out these tips to avoid falling for email phishing traps.</p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" tabindex="0">
             <div class="col-md-12">
 
                 <div class="single-item pb_slide_v2">
                     <div>
-                        <div class="d-lg-flex d-md-block slide_content">
+                        <div class="d-lg-flex d-md-block slide_content" tabindex="0" aria-label="check email address of the sender">
                             <div class="pb_content-media" style="background-image: url(assets/images/email-address.svg); background-size: 400px 400px;"></div>
                             <div class="slide_content-text text-center">
-                                <h3 class="font-weight-normal mt-4">Check email address of the sender</h3>
+                                <h3 class="font-weight-normal mt-4" tabindex="0">check email address of the sender</h3>
                                 <div class="pb_icon_v1">
-                                    <i class="text-secondary material-icons">account_box</i>
+                                    <i class="text-secondary material-icons" aria-hidden="true">account_box</i>
                                 </div>
-                                <p>Does the email have an official website signatures (i.e. @company.org) or is there something off about it?</p>
-                                <p>Look out for the slightest of misspellings in the sender's address.</p>
-                                <p>
-                                    It is extremely easy for attackers to change the displayed name on a sent email so
-                                    don't rely on just that fact when receiving emails.
-                                </p>
+                                <div tabindex="0">
+                                    <p>
+                                        It is extremely easy for <def class="def-adversary"><span></span>adversaries</def>
+                                        to change the displayed name on a sent email, so never rely on that when verifying
+                                        the legitimacy of an email. Always look at the email address it was sent from instead.
+                                    </p>
+                                    <p>Does the sender's address have an official website signature (e.g. @company.org) or
+                                        is there something off about it (e.g. @cmpany.org, @compeny.org, or @c0mpany.org)?</p>
+                                    <p>If the sender's official website signature is correct, double check the username before
+                                    the "@" and make sure it isn't slightly misspelled.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <div class="d-lg-flex d-md-block slide_content">
+                        <div class="d-lg-flex d-md-block slide_content" tabindex="0" aria-label="beware of imposters">
                             <div class="pb_content-media" style="background-image: url(assets/images/forgot-password.svg); background-size: 400px 400px;"></div>
                             <div class="slide_content-text text-center">
-                                <h3 class="font-weight-normal mt-4">Beware of imposters</h3>
+                                <h3 class="font-weight-normal mt-4" tabindex="0">beware of imposters</h3>
                                 <div class="pb_icon_v1">
-                                    <i class="text-secondary material-icons">face</i>
+                                    <i class="text-secondary material-icons" aria-hidden="true">face</i>
                                 </div>
-                                <p>
-                                    An attacker could gain access to the email account of one of your friends, family members,
-                                    or coworkers and pose as them to get you to click on a malicious link.
-                                </p>
-                                <p>
-                                    If your someone you know sends you a link to a "funny video" or something else
-                                    that urgently needs to be clicked it is usually a good idea to check
-                                    with them via phone call or text to make sure that they actually sent the link and
-                                    it was not someone who gained access to their account.
-                                </p>
+                                <div tabindex="0">
+                                    <p>
+                                        An attacker could gain access to the email account of one of your friends, family members,
+                                        or coworkers and pose as them to get you to click on a <def class="def-malicious"><span></span>malicious</def> link.
+                                    </p>
+                                    <p>
+                                        If someone you know sends you a link to a "funny video" or something else
+                                        that urgently needs to be clicked it is usually a good idea to check
+                                        with them via phone call or text to make sure that they actually sent the link and
+                                        it was not someone who gained access to their account.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <div class="d-lg-flex d-md-block slide_content">
+                        <div class="d-lg-flex d-md-block slide_content" tabindex="0" aria-label="who is the email addressed to?">
+                            <div class="pb_content-media" style="background-image: url(assets/images/email-addressed.png); background-size: 500px 400px;"></div>
+                            <div class="slide_content-text text-center">
+                                <h3 class="font-weight-normal mt-4" tabindex="0">who is the email addressed to?</h3>
+                                <div class="pb_icon_v1">
+                                    <i class="text-secondary material-icons" aria-hidden="true">person</i>
+                                </div>
+                                <div tabindex="0">
+                                    <p>
+                                        Many phishing attempts will begin with “Dear customer” instead of “Dear <i><strong>insert your
+                                        name here</strong></i>”.
+                                    </p>
+                                    <p>
+                                        When an official source is emailing you they have your name on file so
+                                        they should always address you by your first name.
+                                    </p>
+                                    <p>
+                                        Some <def class="def-adversary"><span></span>adversaries</def> may have access to your first name, so just because an email is
+                                        correctly addressed to you do not assume it is a legitimate email.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="d-lg-flex d-md-block slide_content" tabindex="0" aria-label="misspellings and bad grammar">
                             <div class="pb_content-media" style="background-image: url(assets/images/bad-grammar.svg); background-size: 400px 400px;"></div>
                             <div class="slide_content-text text-center">
-                                <h3 class="font-weight-normal mt-4">Misspellings and bad grammar</h3>
+                                <h3 class="font-weight-normal mt-4" tabindex="0">misspellings and bad grammar</h3>
                                 <div class="pb_icon_v1">
-                                    <i class="text-secondary material-icons">assignment</i>
+                                    <i class="text-secondary material-icons" aria-hidden="true">assignment</i>
                                 </div>
-                                <p>
-                                    If you receive an email from a seemingly official source then make sure that the email
-                                    doesn't have any misspellings or bad grammar.
-                                </p>
-                                <p>
-                                    An easy way to check for this is to simply copy and paste any of the text that is <b><em>not
-                                    hyperlinked</em></b> into the document editor of your choice to easily see where the
-                                    grammatical errors lie.
-                                </p>
+                                <div tabindex="0">
+                                    <p>
+                                        If you receive an email from a seemingly official source then make sure that the email
+                                        doesn't have any misspellings or bad grammar.
+                                    </p>
+                                    <p>
+                                        An easy way to check for this is to simply copy and paste any of the text that is <strong><em>not
+                                        hyperlinked</em></strong> into the document editor of your choice to easily see where the
+                                        grammatical errors lie.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                     <div>
-                        <div class="d-lg-flex d-md-block slide_content">
+                        <div class="d-lg-flex d-md-block slide_content" tabindex="0" aria-label="think before you click">
+                            <div class="pb_content-media" style="background-image: url(assets/images/email-click.png); background-size: 500px 400px;"></div>
+                            <div class="slide_content-text text-center">
+                                <h3 class="font-weight-normal mt-4" tabindex="0">think before you click</h3>
+                                <div class="pb_icon_v1">
+                                    <i class="fa fa-mouse-pointer" aria-hidden="true" style="color: #3C210B"></i>
+                                </div>
+                                <div tabindex="0">
+                                    <p>
+                                        Take an extra moment to think before you click on any links contained in emails.
+                                        If you are ever unsure it’s always good to ask someone else
+                                        if they think a given email could be a phishing attempt.
+                                    </p>
+                                    <p>
+                                        When in doubt it's always better to go to the official website’s source
+                                        instead of clicking on links in emails. For example if there is an email from a
+                                        popular clothing brand about a sale, it is better to search up their website in
+                                        your browser rather than clicking on the link provided in the email.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-lg-flex d-md-block slide_content" tabindex="0" aria-label="if it seems too good to be true then it is likely a scam">
+                            <div class="pb_content-media" style="background-image: url(assets/images/wallet.png); background-size: 500px 300px;"></div>
+                            <div class="slide_content-text text-center">
+                                <h3 class="font-weight-normal mt-4" tabindex="0">if it seems too good to be true then it is likely a scam</h3>
+                                <div class="pb_icon_v1">
+                                    <i class="fa fa-money" aria-hidden="true" style="color: #3C210B"></i>
+                                </div>
+                                <div tabindex="0">
+                                    <p>
+                                        If you receive an email that you were "selected out of 1000 participants to win a
+                                        new iPhone" or you have been "randomly selected to win $500", then you should take a step
+                                        back and assess the situation.
+                                    </p>
+                                    <p>
+                                        It may seem tempting but <strong><em>do not</em></strong> click
+                                        the link in the email. Doing so will put you at risk for getting your
+                                        personal information stolen.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-lg-flex d-md-block slide_content" tabindex="0" aria-label="create filter for phishing emails">
                             <div class="pb_content-media" style="background-image: url(assets/images/filter.svg); background-size: 400px 400px;"></div>
                             <div class="slide_content-text text-center">
-                                <h3 class="font-weight-normal mt-4">Create filter for phishing emails</h3>
+                                <h3 class="font-weight-normal mt-4" tabindex="0">create filter for phishing emails</h3>
                                 <div class="pb_icon_v1">
-                                    <i style='font-size:20px; color: black;' class='fas'>&#xf0b0;</i>
+                                    <i class="fa fa-filter" aria-hidden="true" style="color: #3C210B"></i>
                                 </div>
-                                <p>
-                                    Some but not all phishing emails will get sent to your spam or junk folder
-                                    before they get sent to your inbox.
-                                </p>
-                                <p>
-                                    If you are able to spot a phishing email then here are some resources to help you
-                                    set up a filter:
-                                </p>
-                                <p>
-                                    <a href="https://theitteam.com.au/filter-messages-from-a-whole-domain-in-gmail/" target="_blank">
-                                        Filter messages from a domain in Gmail
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="https://www.lifewire.com/block-domain-in-hotmail-1164521" target="_blank">
-                                        Filter messages from a domain in Outlook
-                                    </a>
-                                </p>
+                                <div tabindex="0">
+                                    <p>
+                                        Depending on your email provider, some but not all phishing emails will get sent
+                                        to your spam or junk folder before they get put in your inbox.
+                                    </p>
+                                    <p>
+                                        If you are able to spot a phishing email then here are some resources to help you
+                                        set up a filter:
+                                    </p>
+                                    <p>
+                                        <a href="https://theitteam.com.au/filter-messages-from-a-whole-domain-in-gmail/" target="_blank">
+                                            Filter messages from a domain in Gmail
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="https://www.lifewire.com/block-domain-in-hotmail-1164521" target="_blank">
+                                            Filter messages from a domain in Outlook
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -260,7 +467,7 @@
 
 
 
-<footer class="pb_footer bg-light" role="contentinfo">
+<footer class="pb_footer bg-light" tabindex="0" aria-label="footer">
     <div class="container">
         <div class="row">
             <div class="col text-center">
@@ -275,7 +482,7 @@
 <!-- loader -->
 <div id="pb_loader" class="show fullscreen">
     <div class="loading-container">
-        <img class="bee-loader bounce-2" src="../images/securi-bee_bee.png"/>
+        <img class="bee-loader bounce-2" src="../images/securi-bee_bee.png" alt=""/>
         <p>loading the buzz . . .</p>
     </div>
 </div>
@@ -290,6 +497,7 @@
 <script src="assets/js/jquery.easing.1.3.js"></script>
 
 <script src="assets/js/main.js"></script>
+<script src="../index.js"></script>
 
 </body>
 </html>

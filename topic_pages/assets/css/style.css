@@ -1641,7 +1641,7 @@ a {
 .pb_slide_v1 .link-block {
   display: block;
   position: relative;
-  color: #5ea0ad;
+  color: #00706E;
   margin: 5px;}
   .pb_slide_v1 .material-icons {
     font-size: 32px !important;
@@ -1670,7 +1670,7 @@ a {
     .pb_slide_v1 .link-block .slide-text h2 {
       font-size: 24px;
       font-weight: 600 !important;
-      color: #5EA0AD;
+      color: #00706E;
       margin-bottom: 0; }
     .pb_slide_v1 .link-block .slide-text p {
       /*font-size: 24px;*/
