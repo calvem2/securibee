@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="generator" content="GitLab Pages">
-    <title>securi-bee - home</title>
+    <title>securi-bee</title>
     <link rel="stylesheet" href="./topic_pages/assets/css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./topic_pages/assets/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="./topic_pages/assets/fonts/law-icons/font/flaticon.css">
@@ -21,12 +21,13 @@
     <link rel="icon" href="./images/securi-bee_bee.png">
 </head>
 <body>
+<!-- NAVBAR -->
 <div class="main-navbar">
-    <div class="navbar-left">
-        <a href="index.html"><img class="logo" src="images/securi-bee.png" alt="securi-bee logo - a bee stylized with an 's' and a 'b' in the body and wings"/></a>
+    <div class="navbar-left" tabindex="0" aria-label="securibee">
+        <a href="index.html"><img class="logo" src="images/securi-bee.png" alt="securibee logo"/></a>
         <a href="index.html"><h1 class="nav-title">securi&#8209;bee</h1></a>
     </div>
-    <div class="navbar-right">
+    <div class="navbar-right" tabindex="0" aria-label="Menu">
         <a href="index.html">explore topics</a>
         <a href="chrome-extension.html">chrome extension</a>
         <a href="our-mission.html">our mission</a>
@@ -34,13 +35,12 @@
     </div>
 </div>
 
-<!-- todo: make sure that the mission makes sense -->
 <section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-tools">
     <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
             <div class="col-lg-7">
-                <h2 class="mt-0 heading-border-top font-weight-normal">Our Mission</h2>
-                <div class="text-center">
+                <h2 class="mt-0 heading-border-top font-weight-normal" tabindex="0">our mission</h2>
+                <div class="text-center" tabindex="0">
                     <p> With big tech companies hiding behind complicated privacy agreements and
                         explanations on computer security topics being overly technical, navigating the internet can
                         be intimidating and scary.</p>
@@ -50,14 +50,13 @@
                         computer security in a way that everyone can understand -- no hyper-technical language or jargon.</p>
                 </div>
             </div>
+            <img class="img-fluid" src="topic_pages/assets/images/mission.png" alt="" style="height: 400px; width: 600px;">
         </div>
-
     </div>
 </section>
 <!-- END section -->
 
-<!-- todo: add general info about securi-bee -->
-<footer class="pb_footer bg-light" role="contentinfo">
+<footer class="pb_footer bg-light" tabindex="0" aria-label="footer">
     <div class="container">
         <div class="row">
             <div class="col text-center">
@@ -72,7 +71,7 @@
 
 <div id="pb_loader" class="show fullscreen">
     <div class="loading-container">
-        <img class="bee-loader bounce-2" src="images/securi-bee_bee.png"/>
+        <img class="bee-loader bounce-2" src="images/securi-bee_bee.png" alt=""/>
         <p>loading the buzz . . .</p>
     </div>
 </div>
@@ -87,7 +86,6 @@
 <script src="topic_pages/assets/js/jquery.easing.1.3.js"></script>
 
 <script src="topic_pages/assets/js/main.js"></script>
-</div>
 </body>
 </html>
 

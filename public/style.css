@@ -7,20 +7,23 @@ body {
   background-color: white;
 }
 
+/* Accessible color for the website text */
+p, li, td {
+  color: #4D555B;
+}
+
 b {
   font-weight: bold;
 }
 
 /* Style the navigation bar*/
 .main-navbar {
-  background-color: #A9D2C9;
+  background-color: #96C5BC;
   border-radius: 2px;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
 }
 
 /* Remove link underlining */
@@ -34,10 +37,15 @@ b {
   padding: 20px;
   font-size: 110%;
   font-weight: 500;
+  padding-bottom: 6%;
+  padding-top: 6%;
 }
 
 .navbar-right a:hover {
   color: #ffffff;
+  background-color: #3B8179;
+  padding-bottom: 6%;
+  padding-top: 6%;
 }
 
 
@@ -49,7 +57,8 @@ b {
 .navbar-left {
   display: flex;
   align-items: center;
-  padding-left: 2%;
+  background-color: #3B8179;
+  padding: 2% 2% 2% 2%;
 }
 
 /* Style logo*/
@@ -66,9 +75,11 @@ b {
   all: revert;
   line-height: normal;
   font-weight: 500 !important;
-  padding: 0 0 0 8%;
+  padding: 7px 45px 7px 6%;
   font-size: 300%;
   color: white;
+  border-radius: 30px;
+  margin-left: 15px;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -100,6 +111,11 @@ h3 {
   margin: auto auto 50px;
 }
 
+/* Styles all links */
+a {
+  color: #005E70;
+}
+
 .topic-link {
   display: flex;
   width: 300px;
@@ -119,6 +135,7 @@ h3 {
 
 .topic-link p {
   font-weight: bold;
+  color: #3C2109;
 }
 
 .topic-link:hover {
@@ -130,7 +147,6 @@ h3 {
 .topic-link .material-icons {
   font-size: 30pt;
 }
-
 
 ul {
   text-align: left !important;
@@ -176,7 +192,7 @@ footer {
   animation-timing-function: ease;
 }
 
-/* defintions styling */
+/* definitions styling */
 def {
   font-style: italic;
   font-weight: 500;
